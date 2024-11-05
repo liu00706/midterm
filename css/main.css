@@ -1,0 +1,198 @@
+/*CSS Reset code*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+/*
+
+header{
+    
+    text-align: center;
+    color: white;
+    background-image: url("/images/lone-starfish-wide.jpg");
+    background-size: cover;
+    
+}
+
+*/
+/*
+align-items: left; 
+    justify-content: center; 
+    text-align: left; 
+
+*/
+
+.theholebox{
+    background-color: #d4e9e7;
+    display: flex;
+    flex-direction: column; /* 纵向排列内容 */
+    
+  width: 1024px;
+}
+
+
+body {
+    background-color: #aad4cf;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ .h1image {
+    position: relative;
+    display: inline-block;
+}
+
+  .h1image img {
+    width: 100%; /* 根据需要调整图片大小 */
+  }
+  
+
+  .h1image .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .threelinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.box {
+    width: 550px;
+    height: 30px;
+ 
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+
+h2{
+   
+    font-size: 36px;
+    text-align: left;
+    font-weight: bold;
+}
+
+
+
+.Starfish{
+  padding: 10px;
+    font-size: 19px;
+    width: 1020px;
+
+    
+}
+
+.facts ul{
+  padding: 25px;
+}
+
+
+h3{
+  padding: 10px;
+  font-weight: bold;
+    font-size: 36px;
+    text-align: left;
+}
+
+h4{
+  padding: 10px;
+  font-weight: bold;
+  font-size: 36px;
+  text-align: left;
+}
+
+
+.Contact{
+  padding: 15px;
+  width: 965px;
+    height: 470px;
+    margin: 0 10px;
+  border: 2px solid #4b3832; 
+}
+
+
+
+.input-container {
+  
+  margin: 10px 0;
+}
+
+input[type="text"] {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 940px;
+}
+
+input[type="moretext"] {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 940px;
+  height: 100px;
+}
+
+
+
+
+button {
+  margin: 20px;
+  background-color: transparent; /* 设置背景透明 */
+  color: black; /* 设置文本颜色 */
+  border: 2px solid black; /* 添加黑色边框 */
+  padding: 8px 16px; /* 调整按钮内部空间 */
+  font-size: 20px;
+  
+}
+
+footer{
+  padding: 10px;
+  margin: 25px;
+  font-weight: bold;
+  font-size: 12px;
+  text-align: right;
+}
+
+   
