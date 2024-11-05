@@ -29,33 +29,18 @@ time, mark, audio, video {
 }
 
 
-/*
-
-header{
-    
-    text-align: center;
-    color: white;
-    background-image: url("/images/lone-starfish-wide.jpg");
-    background-size: cover;
-    
-}
-
-*/
-/*
-align-items: left; 
-    justify-content: center; 
-    text-align: left; 
-
-*/
+/*  */
+/*Add a background color and a consistent framework to the overall design  */
 
 .theholebox{
     background-color: #d4e9e7;
     display: flex;
-    flex-direction: column; /* 纵向排列内容 */
+    flex-direction: column; 
     
   width: 1024px;
 }
 
+/* body background color */
 
 body {
     background-color: #aad4cf;
@@ -66,13 +51,15 @@ body {
     justify-content: center;
 }
 
+/* Place the header above the image. */
+
  .h1image {
     position: relative;
     display: inline-block;
 }
 
   .h1image img {
-    width: 100%; /* 根据需要调整图片大小 */
+    width: 100%; 
   }
   
 
@@ -87,12 +74,15 @@ body {
     text-align: center;
   }
 
+/* Link appearance settings  */
+
   .threelinks {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 50px;
 }
+
 
 .box {
     width: 550px;
@@ -105,25 +95,13 @@ body {
     border: 2px solid black;
 }
 
+/* header settings */
+
 h2{
    
     font-size: 36px;
     text-align: left;
     font-weight: bold;
-}
-
-
-
-.Starfish{
-  padding: 10px;
-    font-size: 19px;
-    width: 1020px;
-
-    
-}
-
-.facts ul{
-  padding: 25px;
 }
 
 
@@ -142,6 +120,25 @@ h4{
 }
 
 
+/* paragraph setting */
+
+.Starfish{
+  padding: 10px;
+    font-size: 19px;
+    width: 1020px;
+
+    
+}
+
+/* paragraph setting */
+
+.facts ul{
+  padding: 25px;
+}
+
+
+/* Survey Outline Frame */
+
 .Contact{
   padding: 15px;
   width: 965px;
@@ -150,7 +147,7 @@ h4{
   border: 2px solid #4b3832; 
 }
 
-
+/* two input box setting */
 
 .input-container {
   
@@ -175,7 +172,7 @@ input[type="moretext"] {
 }
 
 
-
+/* button setting */
 
 button {
   margin: 20px;
